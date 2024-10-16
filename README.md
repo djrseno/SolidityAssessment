@@ -50,7 +50,7 @@ This will burn 500 tokens from 0xYourAddress and reduce the total supply accordi
 
 Common issues:
 * Insufficient balance: When trying to burn tokens, ensure that the address has enough balance to burn. 
-The burn function will fail if the balance is less than the burn amount.
+The burn function will execute but will fail to change the balance if the balance is less than the burn amount.
 * Correct contract version: Ensure you are using the Solidity compiler version 0.8.18 to avoid compatibility issues.
   
 If your program contains helper functions or error-handling mechanisms, you can check the documentation within the IDE for more information.
